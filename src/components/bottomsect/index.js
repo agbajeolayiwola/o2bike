@@ -1,6 +1,5 @@
 import React from 'react'
 import './style.css'
-import bikes from './rider.png'
 import Newvect from './newvect'
 import animadata from './Riderlottie.json'
 import Lottie from 'react-lottie'

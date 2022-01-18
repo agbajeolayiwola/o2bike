@@ -1,7 +1,6 @@
 import React from 'react'
 import Grpsvg from './grpsvg'
 import './style.css'
-import helmetgirl from './helmetgirl.png'
 import Lottie from 'react-lottie'
 import animdata from './Headerlottie.json'
 
