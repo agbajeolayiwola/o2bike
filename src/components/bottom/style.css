@@ -1,6 +1,7 @@
 .mainBox{
     background: #FCB72B;
     border-radius: 10px;
+    width: 70%;
     padding-top: 32px;
     padding-left: 114px;
     padding-right: 114px;
@@ -13,7 +14,7 @@
     text-align: center;
     color: white;
     padding: 54px;
-    
+    padding-left: 15%;
 }
 .bottomrInner{
     display: flex;
@@ -45,4 +46,25 @@
     line-height: 30px;
     color: #FFFFFFE5;
 
+}
+
+.dotsArrow{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sect{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sect svg{
+    margin-left: 15px;
+    margin-top: 3px;
+}
+.act{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+.right{
+    margin-left: 90px;
 }

@@ -3,6 +3,7 @@
     justify-content: space-evenly;
     margin-top: 10%;
     margin-bottom: 10%;
+    padding-left: 15%;
 }
 .midsectIimgDiv{
     padding: 10px;
@@ -13,4 +14,7 @@
     border: 2px solid #FCB72B;
     box-sizing: border-box;
     border-radius: 10px;
+}
+.main4{
+    opacity: 0.3;
 }

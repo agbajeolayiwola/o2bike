@@ -34,7 +34,7 @@ const Midsect = () => {
             <div className='cov'>
 
         {cardData.map((card, index)=>
-            <div className='card'
+            <div className={`card card${index}`}
             key={index}>
                 <div className='ebike'>
                 <h2>{card.top}</h2>

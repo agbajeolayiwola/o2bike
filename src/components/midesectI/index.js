@@ -30,8 +30,7 @@ const MdesctI = () => {
     return (
         <div  className='midesectImain'>
             {bikess.map((bike, index)=>
-            <div key={index} >
-                {console.log({index})}
+            <div key={index} className={`main${index}`}>
                 <div>
                 <div className='midsectIimgDiv'>
                     <img src={bike.bike} alt='o2ebike'/>

@@ -7,11 +7,12 @@ function App() {
       <div  className='bod'>
       <Navbar/>
       <Main/>
+      </div>
       <Midsect/>
       <MidSectI/>
       <BottomSect/>
       <Bottom/>
-      </div>
+      
       <Footer/>
     </div>
   );
