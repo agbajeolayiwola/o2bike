@@ -1,0 +1,40 @@
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    background: #FCB72B;
+    color: #fff;
+    margin-top: 30px;
+    padding-top: 72px;
+    padding-bottom: 50px;
+    padding-left: 24px;
+}
+.comp{
+    text-align: start;
+}
+.comp div h1{
+    font-size:20px ;
+}
+.comp div p{
+    font-size: 18px;
+}
+.help{
+    text-align: start;
+}
+.help div h1{
+    font-size: 20px;
+}
+.help div p{
+    font-size: 18px;
+}
+.log{
+
+    text-align: start;
+    width: 22%;
+
+}
+.logI{
+    margin-top: 25px;    
+}
+.p{
+    font-size: 18px;
+}

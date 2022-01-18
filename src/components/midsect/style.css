@@ -1,0 +1,55 @@
+.vect{
+    position: absolute;
+    left: 1px;
+    top: 768px;
+    width: 30%;
+    z-index: -999999;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.order{
+    background: linear-gradient(180deg, rgba(255, 189, 55, 0.58) 0%, #FFBD37 100%);
+    border-radius: 100px;
+    width: 109px;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+
+
+}
+.midsect{
+    padding-top: 16%;
+}
+.cov{
+    display: flex;
+    justify-content: space-evenly;
+}
+.h6p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7D7987;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+.h4p{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+.ebike{
+    text-align: start;
+    color: #233348;
+    ;
+}
+.card{
+    
+    width: 35%;
+    box-shadow: -1px 10px 29px #d3d3d3;
+    padding: 17px;
+    z-index: 100000;
+    border-radius: 20px;
+    background-color: #fff;
+
+}

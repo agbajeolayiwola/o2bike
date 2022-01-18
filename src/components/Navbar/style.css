@@ -1,0 +1,16 @@
+.mainnav{
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 10px;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-between;   
+}
+.navlinks div{
+    margin-left: 40px;
+}
+.navlogo{
+    padding-top: 12px;
+}

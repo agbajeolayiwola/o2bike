@@ -1,0 +1,48 @@
+.mainMain{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 135px;
+}
+.mainleft{
+    text-align: initial;
+}
+.mainh1{
+    font-size: 48px;
+    font-weight: 700;
+    width: 44%;
+}
+.grpsvg{
+    position: absolute;
+    left: 1px;
+    top: 100px;
+}
+.mainP{
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    width: 48%;
+}
+.inpDiv{
+    border: solid;
+    border-width: 1px;
+    border-color: #d3d3;
+    border-radius: 100px;
+    padding-left: 15px;
+    width: 44%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    
+}
+.inpDiv input{
+    border: none;
+    padding: 10px;
+    width: 64%;
+    outline: none;
+}
+.inpDiv button{
+    background: linear-gradient(180deg, rgba(255, 189, 55, 0.58) 0%, #FFBD37 100%);
+    border-radius: 100px;
+    width: 109px;
+    padding: 10px;
+    border: none;
+}
