@@ -1,0 +1,40 @@
+.btmSect{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btmcard{
+    width: 100%;
+    box-shadow: -1px 10px 29px #d3d3d3;
+    padding: 17px;
+    z-index: 100000;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.btmSectAbt{
+    width: 35%;
+    text-align: initial;
+}
+.lnMre{
+    padding: 3px;
+    border: 1.4px solid #FCB72B;
+    color: #FCB72B;
+    width: 50%;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 70px;
+
+}
+.hybP{
+    color:  #7D7987;
+    font-size: 18px;
+    font-weight: 300;
+}
+.h2hyb{
+    font-size: 36px;
+    font-weight: 700;
+}
+.newVect{
+    z-index: -10000;
+    position: absolute;
+    right: 0px;
+}

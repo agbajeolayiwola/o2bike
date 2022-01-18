@@ -1,4 +1,7 @@
 export {default as Navbar} from '../components/Navbar'
 export {default as Main} from '../components/main'
 export {default as Midsect} from '../components/midsect'
+export {default as MidSectI} from '../components/midesectI'
+export {default as Bottom} from '../components/bottom'
 export {default as Footer} from '../components/footer'
+export {default as BottomSect} from '../components/bottomsect'

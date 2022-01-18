@@ -1,0 +1,48 @@
+.mainBox{
+    background: #FCB72B;
+    border-radius: 10px;
+    padding-top: 32px;
+    padding-left: 114px;
+    padding-right: 114px;
+    padding-bottom: 25px;
+    background-image: url('./btmdots.svg');
+    background-repeat: no-repeat;
+    background-position: 98% -210%;
+}
+.bottomBoxMain{
+    text-align: center;
+    color: white;
+    padding: 54px;
+    
+}
+.bottomrInner{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+.cyclerImg{
+    border: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 50%;
+}
+.bottmH3{
+    width: 185px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.botomP{
+    font-size: 18px;
+    font-weight: 300;
+}
+.textP{
+    text-align: start;
+    width: 45%;
+}
+.textPp{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFFE5;
+
+}

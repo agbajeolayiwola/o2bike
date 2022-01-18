@@ -1,9 +1,19 @@
 import React from 'react'
-import Logo from '../Navbar/logo'
 import Grpsvg from './grpsvg'
 import './style.css'
+import helmetgirl from './helmetgirl.png'
+import Lottie from 'react-lottie'
+import animdata from './Headerlottie.json'
 
 const Main = () => {
+    const defaultOptions = {
+        loop: true,
+        autoplay: true,
+        animationData: animdata,
+        rendererSettings: {
+          preserveAspectRatio: "xMidYMid slice"
+        }
+      };
     return (
         <div className='mainMain'>
             <div className='grpsvg'>
@@ -31,7 +41,11 @@ const Main = () => {
             </div>
             {/* animated svg div */}
             <div>
-                <Logo/>
+            <Lottie 
+                options={defaultOptions}
+                height={400}
+                width={400}
+            />
             </div>
         </div>
     )

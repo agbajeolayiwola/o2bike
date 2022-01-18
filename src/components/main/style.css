@@ -2,6 +2,9 @@
     display: flex;
     justify-content: space-evenly;
     padding-top: 135px;
+    background-image: url('./GroupBg.svg');
+    background-repeat: no-repeat;
+    background-position: 0% -210%;
 }
 .mainleft{
     text-align: initial;
@@ -28,7 +31,7 @@
     border-color: #d3d3;
     border-radius: 100px;
     padding-left: 15px;
-    width: 44%;
+    width: 60%;
     padding-top: 7px;
     padding-bottom: 7px;
     
