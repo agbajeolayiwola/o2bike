@@ -12,7 +12,9 @@
 .mainh1{
     font-size: 48px;
     font-weight: 700;
-    width: 44%;
+    width: 54%;
+    color: #233348;
+    ;
 }
 .grpsvg{
     position: absolute;
@@ -23,7 +25,9 @@
     font-size: 21px;
     font-weight: 300;
     line-height: 32px;
-    width: 48%;
+    width: 62%;
+    color:#7D7987;
+    ;
 }
 .inpDiv{
     border: solid;
@@ -48,4 +52,8 @@
     width: 109px;
     padding: 10px;
     border: none;
+}
+.find{
+    font-weight: 600;
+    font-size: 14px;
 }

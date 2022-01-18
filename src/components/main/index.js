@@ -34,7 +34,7 @@ const Main = () => {
                 <div>
                     <div className='inpDiv'>
                     <input placeholder='Search Bike or Anything' type='text'/>
-                    <button>Find</button>
+                    <button className='find'>Find</button>
                     </div>
                 </div>
             </div>
