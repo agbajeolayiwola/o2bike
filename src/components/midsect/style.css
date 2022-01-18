@@ -31,6 +31,7 @@
     font-weight: 400;
     color: #7D7987;
     margin-top: 0px;
+    margin-right: 12px;
     margin-bottom: 4px;
 }
 .h4p{
@@ -44,7 +45,7 @@
     ;
 }
 .card{
-    
+    color: #233348;
     width: 25%;
     box-shadow: -1px 10px 29px #d3d3d3;
     padding: 17px;

@@ -34,7 +34,7 @@ const BottomSect = () => {
             <div className='price'>
                 <div>
                 <div><h6 className='h6p'>Price</h6></div>
-                <div><h4 className='h4p'>%750</h4></div>
+                <div><h4 className='h4p'>$750</h4></div>
                 </div>
                 <div>
                     <button className='order'>Order</button>
