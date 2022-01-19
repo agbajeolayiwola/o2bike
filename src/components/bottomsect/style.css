@@ -6,7 +6,8 @@
 }
 .btmcard{
     width: 100%;
-    box-shadow: -1px 23px 29px #d3d3d3;
+    box-shadow: 10px 24px 54px 0px #0000000F;
+
     padding: 17px;
     z-index: 100000;
     border-radius: 20px;

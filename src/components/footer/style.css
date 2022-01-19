@@ -16,6 +16,7 @@
 }
 .comp div p{
     font-size: 18px;
+    font-weight: 300;
 }
 .help{
     text-align: start;
@@ -29,7 +30,7 @@
 .log{
 
     text-align: start;
-    width: 22%;
+    width: 26%;
 
 }
 .logI{
@@ -37,4 +38,5 @@
 }
 .p{
     font-size: 18px;
+    font-weight: 300;
 }

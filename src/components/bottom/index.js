@@ -10,7 +10,7 @@ const Bottom = () => {
                     <h1>
                     What our customer are saying
                     </h1>
-                    <hr style={{colot:'white', width:'10%'}}/>
+                    <hr style={{color:'white', width:'10%'}}/>
                 </div>
                 <div className='bottomrInner'>
                     <div >

@@ -28,11 +28,14 @@ const MdesctI = () => {
     ]
     console.log(bikess)
     return (
+        <div className='midsect'>
+            <h2 className='oth'>Other Type Of Bikes</h2>
         <div  className='midesectImain'>
+            
             {bikess.map((bike, index)=>
             <div key={index} className={`main${index}`}>
                 <div>
-                <div className='midsectIimgDiv'>
+                <div className={`midsectIimgDiv bike${index}`}>
                     <img src={bike.bike} alt='o2ebike'/>
                 </div>
                 <div className='midsectIH4Div'>
@@ -41,6 +44,7 @@ const MdesctI = () => {
                 </div>
             </div>
             )}
+        </div>
         </div>
 
     )

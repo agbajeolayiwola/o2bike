@@ -15,6 +15,8 @@
     color: white;
     padding: 54px;
     padding-left: 15%;
+    padding-top: 12%;
+    padding-bottom: 8%;
 }
 .bottomrInner{
     display: flex;
@@ -23,7 +25,7 @@
 }
 .cyclerImg{
     border: solid;
-    border-width: 2px;
+    border-width: 5px;
     border-color: white;
     border-radius: 50%;
 }
@@ -58,7 +60,7 @@
 }
 .sect svg{
     margin-left: 15px;
-    margin-top: 3px;
+    margin-top: 7px;
 }
 .act{
     display: flex;
@@ -67,4 +69,7 @@
 }
 .right{
     margin-left: 90px;
+}
+.oth{
+    text-align: start;
 }
