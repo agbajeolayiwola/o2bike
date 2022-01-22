@@ -35,7 +35,7 @@
     border-color: #d3d3;
     border-radius: 100px;
     padding-left: 15px;
-    width: 60%;
+    width: 70%;
     padding-top: 7px;
     padding-bottom: 7px;
     
@@ -57,3 +57,65 @@
     font-weight: 600;
     font-size: 14px;
 }
+@media only screen and (max-width: 600px) {
+    .mainMain{
+        display: block;
+        justify-content: space-evenly;
+        padding-top: 135px;
+        background-image: url('./GroupBg.svg');
+        background-repeat: no-repeat;
+        background-position: 0% -210%;
+    }
+    .mainleft{
+        text-align: center;
+    }
+    .mainh1{
+        font-size: 48px;
+        font-weight: 700;
+        width: 100%;
+        color: #233348;
+        ;
+    }
+    .grpsvg{
+        position: absolute;
+        left: 1px;
+        top: 100px;
+    }
+    .mainP{
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 32px;
+        width: 100%;
+        color:#7D7987;
+        ;
+    }
+    .inpDiv{
+        border: solid;
+        border-width: 1px;
+        border-color: #d3d3;
+        border-radius: 100px;
+        padding-left: 15px;
+        display: flex;
+        width: 100%;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        
+    }
+    .inpDiv input{
+        border: none;
+        padding: 10px;
+        width: 74%;
+        outline: none;
+    }
+    .inpDiv button{
+        background: linear-gradient(180deg, rgba(255, 189, 55, 0.58) 0%, #FFBD37 100%);
+        border-radius: 100px;
+        width: 109px;
+        padding: 10px;
+        border: none;
+    }
+    .find{
+        font-weight: 600;
+        font-size: 14px;
+    }
+  }
