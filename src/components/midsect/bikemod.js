@@ -13,7 +13,7 @@ const Bikemod = () => {
         <Canvas shadows
         dpr={[1, 2]}
         camera={{ position: [3, 0, 0], fov: 50 }}
-        style={{height:'250px', width:'350px'}}
+        style={{height:'250px', width:'300px'}}
         className="canvas">
         <ambientLight intensity={0.1} />
         <spotLight intensity={3.5} 
