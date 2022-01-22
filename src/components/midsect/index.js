@@ -1,25 +1,25 @@
 import React from 'react'
 import Vector from './vector'
 import './style.css'
-import bike from './bike.png'
+import Bikemod from './bikemod'
 
 const Midsect = () => {
 
     const cardData =[
         {
-            image: bike,
+            image: <Bikemod/>,
             top:'Universal eBike Kit',
             price: 'price',
             money: '$750'
         },
         {
-            image: bike,
+            image: <Bikemod/>,
             top:'Brampton eBike Kit',
             price: 'price',
             money: '$1750'
         },
         {
-            image: bike,
+            image: <Bikemod/>,
             top:'Additional eBike Kit',
             price: 'price',
             money: '$750'
@@ -27,11 +27,13 @@ const Midsect = () => {
     ]
     
     return (
+        
         <div className='midsect'>
             <div className='vect'>
                 <Vector/>
             </div>
             <div className='cov'>
+                
 
         {cardData.map((card, index)=>
             <div className={`card card${index}`}
@@ -40,7 +42,7 @@ const Midsect = () => {
                 <h2>{card.top}</h2>
                 </div>
             <div>
-                <img src={card.image} alt='bike product'/>
+                {card.image}
             </div>
             <hr/>
             <div className='price'>
