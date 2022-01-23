@@ -70,3 +70,78 @@
 .right{
     margin-left: 90px;
 }
+
+@media only screen and (max-width: 600px) {
+    .mainBox{
+        background: #FCB72B;
+        border-radius: 10px;
+        width: 90%;
+        padding-top: 32px;
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-bottom: 25px;
+        background-image: url('./btmdots.svg');
+        background-repeat: no-repeat;
+        background-position: 98% -210%;
+    }
+    .bottomBoxMain{
+        text-align: center;
+        color: white;
+        padding: 54px;
+        padding-left: 15%;
+        padding-top: 12%;
+        padding-bottom: 8%;
+    }
+    .bottomrInner{
+        display: block;
+        margin-top: 40px;
+        justify-content: space-evenly;
+    }
+    .cyclerImg{
+        border: solid;
+        border-width: 5px;
+        border-color: white;
+        border-radius: 50%;
+    }
+    .bottmH3{
+        width: 185px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .botomP{
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .textP{
+        text-align: center;
+        width: 100%;
+    }
+    .textPp{
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #FFFFFFE5;
+    
+    }
+    
+    .dotsArrow{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .sect{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .sect svg{
+        margin-left: 15px;
+        margin-top: 7px;
+    }
+    .act{
+        display: flex;
+        justify-content: center;
+        padding-top: 5%;
+    }
+    .right{
+        margin-left: 90px;
+    }
+  }

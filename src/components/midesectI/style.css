@@ -28,3 +28,40 @@
     color: #233348;
 
 }
+
+
+@media only screen and (max-width: 600px) {
+    .midesectImain{
+        display: block;
+        justify-content: space-between;
+        margin-top: 6%;
+        margin-bottom: 10%;
+        padding: 10%;
+    }
+    .midsectIimgDiv{
+        padding: 10px;
+        box-shadow: 10px 24px 54px 0px #0000000F;
+        border-radius: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    
+    }
+    .bike0{
+        border: 3px solid #FCB72B;
+        box-sizing: border-box;
+        border-radius: 10px;
+        box-shadow: 0px 0px 0px #d3d3d3;
+    }
+    .main4{
+        opacity: 0.3;
+    }
+    .oth{
+        text-align: start;
+        font-size: 24px;
+        font-weight: 600;
+        color: #233348;
+    
+    }
+    
+    
+  }

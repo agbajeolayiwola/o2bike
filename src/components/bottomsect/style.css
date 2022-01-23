@@ -41,3 +41,49 @@
     position: absolute;
     right: 0px;
 }
+
+@media only screen and (max-width: 600px) {
+    .btmSect{
+        display: block;
+        justify-content: space-evenly;
+        width: 70%;
+        padding-left: 15%;
+    }
+    .btmcard{
+        width: 100%;
+        box-shadow: 10px 24px 54px 0px #0000000F;
+    
+        padding: 17px;
+        z-index: 100000;
+        border-radius: 20px;
+        background-color: #fff;
+    }
+    .btmSectAbt{
+        width: 100%;
+        text-align: center;
+    }
+    .lnMre{
+        padding: 3px;
+        border: 1.4px solid #FCB72B;
+        color: #FCB72B;
+        width: 100%;
+        border-radius: 50px;
+        text-align: center;
+        margin-top: 70px;
+    
+    }
+    .hybP{
+        color:  #7D7987;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .h2hyb{
+        font-size: 36px;
+        font-weight: 700;
+    }
+    .newVect{
+        z-index: -10000;
+        position: absolute;
+        right: 0px;
+    }
+  }
