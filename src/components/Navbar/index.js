@@ -1,9 +1,41 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Logo from './logo'
 import './style.css'
+import SideNav, { MenuIcon } from 'react-simple-sidenav';
 
 const Navbar = () => {
+
+    const [width, setWindowWidth] = useState(0);
+    const updateDimensions = () => {
+      const width = window.innerWidth
+      setWindowWidth(width)
+    }
+
+    const [showNav, setShowNav] = useState();
+
+    const navItems = [
+        <div>
+        <h4 className='active'>Product</h4>
+        </div>,
+        <div>
+            <h4 className='inactive'>Bike Type</h4>
+        </div>,
+        <div>
+            <h4 className='inactive'>About Us</h4>
+        </div>,
+        <div>
+            <h4 className='inactive'>Testimonials</h4>
+        </div>,
+        <div>
+            <h4 className='inactive'>Contact</h4>
+        </div>,
+    ];
+   
+    const title = <div className='navlogo'><Logo/></div>;
     return (
+        <div>
+        {
+            width == 600 ? 
         <div className='mainnav'>
             <div className='navlogo'>
                 <Logo/>
@@ -25,6 +57,23 @@ const Navbar = () => {
                     <h4 className='inactive'>Contact</h4>
                 </div>
             </div>
+        </div>:
+                <div className='mainnav'>
+                <div className='navlogo'>
+                    <Logo/>
+                </div>
+                <div>
+                <MenuIcon onClick={() => setShowNav(true)} />
+                <SideNav showNav={showNav} 
+                titleStyle={{ backgroundColor: '#fff' }}
+                itemStyle={{ backgroundColor: '#fff' }}
+                itemHoverStyle={{ backgroundColor: '#FFBD37' }}
+                onHideNav={() => setShowNav(false)} title={title} items={navItems} />
+                </div>
+                </div>
+           
+
+        }
         </div>
     )
 }
