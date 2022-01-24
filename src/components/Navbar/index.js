@@ -1,15 +1,24 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import Logo from './logo'
 import './style.css'
 import SideNav, { MenuIcon } from 'react-simple-sidenav';
 
 const Navbar = () => {
 
-    const [width, setWindowWidth] = useState(0);
-    const updateDimensions = () => {
-      const width = window.innerWidth
-      setWindowWidth(width)
-    }
+    const [size, setSize] = useState(window.innerWidth);
+    const breakpoint = 670;
+   useEffect(() => {
+     const handleResize=()=>{
+     setSize(window.innerWidth)
+     return () =>{
+       window.removeEventListener('resize', handleResize);
+     }
+   }
+   window.addEventListener('resize', handleResize)
+ },[])
+ console.log(size)
+
+
 
     const [showNav, setShowNav] = useState();
 
@@ -34,8 +43,7 @@ const Navbar = () => {
     const title = <div className='navlogo'><Logo/></div>;
     return (
         <div>
-        {
-            width == 600 ? 
+        {breakpoint <= size ? 
         <div className='mainnav'>
             <div className='navlogo'>
                 <Logo/>
@@ -57,12 +65,13 @@ const Navbar = () => {
                     <h4 className='inactive'>Contact</h4>
                 </div>
             </div>
-        </div>:
+        </div>
+        :
                 <div className='mainnav'>
                 <div className='navlogo'>
                     <Logo/>
                 </div>
-                <div>
+                <div className='navBg'>
                 <MenuIcon onClick={() => setShowNav(true)} />
                 <SideNav showNav={showNav} 
                 titleStyle={{ backgroundColor: '#fff' }}

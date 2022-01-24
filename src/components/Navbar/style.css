@@ -26,3 +26,8 @@
     font-size: 18px;
     cursor: pointer;
 }
+.navBg{
+    padding: 20px;
+    background: #FFBD37;
+    border-radius: 20px;
+}
